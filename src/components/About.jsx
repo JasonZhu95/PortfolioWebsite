@@ -35,8 +35,8 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionHeadTextSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
@@ -45,12 +45,11 @@ const About = () => {
       >
         I'm an aspiring game programmer with experience in C# 
         and C++, and expertise in utilizing Unity and some Unreal Engine.  
-        As a soon-to-be college graduate with a bachelor's in Computer Science, 
-        I have a fundamental understanding of software design techniques and have 
-        implemented gameplay programming patterns within my own projects.  I am 
-        passionate about game development and excited to work with like-minded 
-        individuals to bring their creative visions to life.  If you're interested in 
-        working together on an exciting porject, please don't hesitate to reach out.
+        As a soon-to-be college graduate with a bachelor's degree in Computer Science, 
+        I have gained fundamental understanding of software design techniques and have 
+        extended that knowledge into my own projects.  I am 
+        passionate about game development and am excited to work with like-minded 
+        individuals to bring their creative visions to life.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
