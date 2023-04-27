@@ -14,15 +14,10 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    CSUFLogo,
+    FullertonCollegeLogo,
+    StaterBrosLogo,
   } from "../assets";
   
   export const navLinks = [
@@ -31,8 +26,16 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
+    },
+    {
+      id: "skills",
+      title: "Skills",
+    },
+    {
+      id: "education",
+      title: "Education",
     },
     {
       id: "contact",
@@ -42,20 +45,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Gameplay Programmer",
+      icon: creator,
+    },
+    {
+      title: "Unity Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "C# Programmer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "OpenGL Experienced",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -108,130 +111,151 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Manager In Training (Key Carrier)",
+      company_name: "Stater Bros. Grocery Market",
+      icon: StaterBrosLogo,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2016 - July 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Delivered an exceptional customer experience and was promoted to a management position in under 4 months.",
+        "Supervised over 30 employees to complete tasks when the store manager was away.",
+        "Directed and coordinated production, pricing, and distribution activities for various departments.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Fullerton College",
+      company_name: "Relevant Coursework",
+      icon: FullertonCollegeLogo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 2019 - May 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Linear Algebra and Differential Equations",
+        "Discrete Mathematics",
+        "Data Structures in C++",
+        "Intro to Operating Systems"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "California State University, Fullerton",
+      company_name: "Relevant Coursework",
+      icon: CSUFLogo,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Sept 2021 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Foundations of Software Engineering",
+        "Data Structures and Algorithms",
+        "Game Design and Production",
+        "Mobile Device Application Programming",
       ],
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "SubTerra Metroidvania Game (Work in Progress)",
+      description: [
+        "Coordinated with a team of 5 to optimize workflow utilizing GitHub integration, assuming a leadership role.",
+        "Developed a multi-weapon system which handles sprite animation, sfx, attack data and hitboxes through a custom inspector.",
+        "Implemented a dialogue system with Ink integration that parses text files for determining which character portrait or audio file should be played.",
+        "Generated persitant encrypted player data locally allowing for multiple save and load files.",
+      ],
       tags: [
         {
-          name: "react",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "C#",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      youtubeLink: '6y3VSh2hKGg',
+      source_code_link: "https://github.com/JasonZhu95/SubTerra",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      name: "Red Revolver 2D Platformer",
+      description: [
+        "Collaborated in a team of 8 students as the lead programmer, using Jira and an Agile Scrum development process.",
+        "Implemented a core component pattern to reduce repetitive code that handled entity collision, movement, and stats.",
+        "Managed the player and enemy controller scripts as hierarchial finite state machines that increased the flexibility and maintenance of the codebase.",
+        "Increased game-feel with player forgiveness mechanics such as increased input buffers, coyote time, halved gravity jump peak, and momentum storage.",
+      ],
       tags: [
         {
-          name: "react",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "C#",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      youtubeLink: '4LV0fjtzvIc',
+      source_code_link: "https://github.com/Shibotomoro/RedRevolver",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "Crossy Road Clone",
+      description: [
+        "Produced 3d assets using a Voxel editor and connected animations using Unreal blueprints.",
+        "Dynamically generated and deleted alternating lanes of terrain based on player collision.",
+        "Employed the usage of material instances and a UI handling collectibles and player score to add polish to the game.",
+      ],
       tags: [
         {
-          name: "nextjs",
+          name: "UnrealEngine4",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "BluePrints",
           color: "green-text-gradient",
         },
+      ],
+      youtubeLink: 'Rmp36htmFKc',
+      source_code_link: "https://github.com/JasonZhu95/CrossyRoadClone",
+    },
+    {
+      name: "OpenGL Snake Game",
+      description: [
+        "Created a texture and shader class that reads data from files to create graphics using modern OpenGL. Features techniques such as texture wrapping and filtering, coordinate systems, and collision detection",
+        "Linked multiple dependencies such as GLAD, GLFW, GLM (math library for graphics software), irrKlang (audio dependency), and glText (text rendering) to add polish and export the game.",
+        "Utilized unit testing to check individual functions such as the linking and compiling of shaders and textures and GLFW window opening and closing.",
+      ],
+      tags: [
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "ModernOpenGL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C++",
+          color: "green-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      youtubeLink: 'DzVj-D4RH9w',
+      source_code_link: "https://github.com/JasonZhu95/jzhuSnake",
+    },
+    {
+      name: "Sorting Algorithm Visualizer",
+      description: [
+        "Generated graphics which exhibit five sorting algorithms: Quick, Merge, Bubble, Selection, and Insertion Sort",
+        "Constructed a menu interface that allow for selection of number of values, speed of sort, type of sort, and exit.",
+        "Administered a GitHub workflow of branching, commits, pulling, and pushing to track logs and project progression.",
+      ],
+      tags: [
+        {
+          name: "LegacyOpenGL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C++",
+          color: "green-text-gradient",
+        },
+      ],
+      youtubeLink: '--RWaeg3ZhY',
+      source_code_link: "https://github.com/JasonZhu95/SortingVisualizer",
     },
   ];
   

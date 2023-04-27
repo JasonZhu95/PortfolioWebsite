@@ -8,6 +8,12 @@ import { logo, menu, close } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setActive('');
+    }, 100);
+    return () => clearTimeout(timeoutId);
+  }, [active]);
   const [toggle, setToggle] = useState(false);
   return (
     <nav
