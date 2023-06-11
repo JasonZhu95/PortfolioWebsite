@@ -22,7 +22,7 @@ const ProjectCard = ({ index, name, description, tags, youtubeLink, source_code_
           <iframe sandbox
             width="560"
             height="315"
-            src={`https://www.youtube.com/embed/${youtubeLink}?autoplay=1&controls=0&mute=1&loop=1`}
+            src={`https://www.youtube.com/embed/${youtubeLink}?autoplay=1&controls=0&mute=1&playlist=${youtubeLink}&loop=1`}
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

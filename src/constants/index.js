@@ -3,18 +3,15 @@ import {
     backend,
     creator,
     web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
+    cplusplus,
+    csharp,
     git,
-    figma,
-    threejs,
+    jira,
+    opengl,
+    sdl2,
+    slack,
+    unity,
+    unreal,
     CSUFLogo,
     FullertonCollegeLogo,
     StaterBrosLogo,
@@ -64,52 +61,40 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "C++",
+      icon: cplusplus,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "C#",
+      icon: csharp,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Unity",
+      icon: unity,
+    },
+    {
+      name: "Unreal 4",
+      icon: unreal,
+    },
+    {
+      name: "OpenGL",
+      icon: opengl,
+    },
+    {
+      name: "SDL2",
+      icon: sdl2,
+    },
+    {
+      name: "Jira",
+      icon: jira,
+    },
+    {
+      name: "Slack",
+      icon: slack,
     },
   ];
   
@@ -166,11 +151,11 @@ import {
       tags: [
         {
           name: "Unity",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
         },
         {
           name: "C#",
-          color: "green-text-gradient",
+          color: "purple-text-gradient",
         },
       ],
       youtubeLink: '6y3VSh2hKGg',
@@ -187,11 +172,11 @@ import {
       tags: [
         {
           name: "Unity",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
         },
         {
           name: "C#",
-          color: "green-text-gradient",
+          color: "purple-text-gradient",
         },
       ],
       youtubeLink: '4LV0fjtzvIc',
@@ -207,11 +192,11 @@ import {
       tags: [
         {
           name: "UnrealEngine4",
-          color: "blue-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "BluePrints",
-          color: "green-text-gradient",
+          color: "yellow-text-gradient",
         },
       ],
       youtubeLink: 'Rmp36htmFKc',
@@ -227,11 +212,11 @@ import {
       tags: [
         {
           name: "ModernOpenGL",
-          color: "blue-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "C++",
-          color: "green-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       youtubeLink: 'DzVj-D4RH9w',
@@ -247,11 +232,11 @@ import {
       tags: [
         {
           name: "LegacyOpenGL",
-          color: "blue-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "C++",
-          color: "green-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
       youtubeLink: '--RWaeg3ZhY',

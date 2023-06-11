@@ -7,19 +7,15 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import cplusplus from "./tech/cplusplus.png";
+import csharp from "./tech/csharp.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import jira from "./tech/jira.png";
+import opengl from "./tech/opengl.png";
+import sdl2 from "./tech/sdl2.png";
+import slack from "./tech/slack.png";
+import unity from "./tech/unity.png";
+import unreal from "./tech/unreal.png";
 
 import CSUFLogo from "./company/CSUFLogo.png";
 import FullertonCollegeLogo from "./company/FullertonCollegeLogo.png";
@@ -34,19 +30,15 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
+  cplusplus,
+  csharp,
   git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  jira,
+  opengl,
+  sdl2,
+  slack,
+  unity,
+  unreal,
   CSUFLogo,
   FullertonCollegeLogo,
   StaterBrosLogo,
