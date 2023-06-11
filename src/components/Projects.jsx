@@ -3,11 +3,12 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github } from '../assets';
+import { youtube } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({ index, name, description, tags, youtubeLink, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, youtubeLink, source_code_link, youtube_source_code_link }) => {
   return(
     <div className ="overflow-hidden">
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} >
@@ -30,6 +31,16 @@ const ProjectCard = ({ index, name, description, tags, youtubeLink, source_code_
               allowfullscreen
             ></iframe>
             <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+            <div
+                onClick={() => window.open(youtube_source_code_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={youtube}
+                  alt='source code'
+                  className='w-4/5 h-4/5 object-contain'
+                />
+              </div>
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
                 className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -37,7 +48,7 @@ const ProjectCard = ({ index, name, description, tags, youtubeLink, source_code_
                 <img
                   src={github}
                   alt='source code'
-                  className='w-1/2 h-1/2 object-contain'
+                  className='w-2/3 h-2/3 object-contain'
                 />
               </div>
             </div>

@@ -159,6 +159,7 @@ import {
       ],
       youtubeLink: 'j75X9MqnLpo',
       source_code_link: "https://github.com/JasonZhu95/mazetd",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=j75X9MqnLpo",
     },
     {
       name: "SubTerra Metroidvania Game",
@@ -180,6 +181,7 @@ import {
       ],
       youtubeLink: '8v-usKs7G7k',
       source_code_link: "https://github.com/JasonZhu95/SubTerra",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=8v-usKs7G7k",
     },
     {
       name: "Red Revolver 2D Platformer",
@@ -201,6 +203,7 @@ import {
       ],
       youtubeLink: '4LV0fjtzvIc',
       source_code_link: "https://github.com/Shibotomoro/RedRevolver",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=4LV0fjtzvIc",
     },
     {
       name: "Crossy Road Clone",
@@ -221,6 +224,7 @@ import {
       ],
       youtubeLink: 'Rmp36htmFKc',
       source_code_link: "https://github.com/JasonZhu95/CrossyRoadClone",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=Rmp36htmFKc",
     },
     {
       name: "OpenGL Snake Game",
@@ -241,6 +245,7 @@ import {
       ],
       youtubeLink: 'DzVj-D4RH9w',
       source_code_link: "https://github.com/JasonZhu95/jzhuSnake",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=DzVj-D4RH9w",
     },
     {
       name: "Sorting Algorithm Visualizer",
@@ -261,6 +266,7 @@ import {
       ],
       youtubeLink: '--RWaeg3ZhY',
       source_code_link: "https://github.com/JasonZhu95/SortingVisualizer",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=--RWaeg3ZhY",
     },
   ];
   
