@@ -141,7 +141,27 @@ import {
   
   const projects = [
     {
-      name: "SubTerra Metroidvania Game (Work in Progress)",
+      name: "Maze Tower Defense",
+      description: [
+        "Designed a grid visualization system that handles the placement and removal of towers, enemy movement, and pathfinding calculations.",
+        "Implemented responsive user interfaces, including menu screens, in-game HUDs, and upgrade systems, enhancing the overall player experience.",
+        "Developed a flexible and cuztomizable enemy system utilizing Scriptable Objects to store and manage enemy data.",
+      ],
+      tags: [
+        {
+          name: "Unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "purple-text-gradient",
+        },
+      ],
+      youtubeLink: 'j75X9MqnLpo',
+      source_code_link: "https://github.com/JasonZhu95/mazetd",
+    },
+    {
+      name: "SubTerra Metroidvania Game",
       description: [
         "Coordinated with a team of 5 to optimize workflow utilizing GitHub integration, assuming a leadership role.",
         "Developed a multi-weapon system which handles sprite animation, sfx, attack data and hitboxes through a custom inspector.",
@@ -158,7 +178,7 @@ import {
           color: "purple-text-gradient",
         },
       ],
-      youtubeLink: '6y3VSh2hKGg',
+      youtubeLink: '8v-usKs7G7k',
       source_code_link: "https://github.com/JasonZhu95/SubTerra",
     },
     {
