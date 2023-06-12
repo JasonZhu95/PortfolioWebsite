@@ -141,6 +141,27 @@ import {
   
   const projects = [
     {
+      name: "Warfront Tactics",
+      description: [
+        "Employed the observer pattern, event actions, and delegates to engineer a modular turn management system",
+        "Integrated an A* pathfinding algorithm for enemy AI, creating challenging and strategic enemy movements and interactions.",
+        "Crafted a dynamic path visualization system that places arrow sprites based on the hovered player path.",
+      ],
+      tags: [
+        {
+          name: "Unity",
+          color: "green-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "purple-text-gradient",
+        },
+      ],
+      youtubeLink: 'hKKeacqhdwM',
+      source_code_link: "https://github.com/JasonZhu95/WarfrontTactics",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=hKKeacqhdwM",
+    },
+    {
       name: "Maze Tower Defense",
       description: [
         "Designed a grid visualization system that handles the placement and removal of towers, enemy movement, and pathfinding calculations.",
