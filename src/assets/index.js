@@ -3,8 +3,10 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import website from "./website.png"
 import github from "./github.png";
 import youtube from "./youtube.png";
+import causeway from "./causeway.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,6 +23,7 @@ import unreal from "./tech/unreal.png";
 import CSUFLogo from "./company/CSUFLogo.png";
 import FullertonCollegeLogo from "./company/FullertonCollegeLogo.png";
 import StaterBrosLogo from "./company/StaterBrosLogo.png";
+import kybolt from "./company/kybolt.png";
 
 export {
   logo,
@@ -28,8 +31,10 @@ export {
   creator,
   mobile,
   web,
+  website,
   github,
   youtube,
+  causeway,
   menu,
   close,
   cplusplus,
@@ -44,4 +49,5 @@ export {
   CSUFLogo,
   FullertonCollegeLogo,
   StaterBrosLogo,
+  kybolt,
 };

@@ -61,6 +61,54 @@ iframe {
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
+.xml-text-gradient {
+  background: #3c4cad; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #3c4cad,
+    #e8a49c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #3c4cad,
+    #e8a49c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lua-text-gradient {
+  background: #f04393; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f04393,
+    #f9c449
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f04393,
+    #f9c449
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.customengine-text-gradient {
+  background: #56c596; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #56c596,
+    #cff4d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #56c596,
+    #cff4d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(

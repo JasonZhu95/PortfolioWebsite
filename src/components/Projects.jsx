@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github } from '../assets';
 import { youtube } from '../assets';
+import { causeway } from '../assets';
+import { website } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -80,6 +82,68 @@ const ProjectCard = ({ index, name, description, tags, youtubeLink, source_code_
   )
 }
 
+const handleImageClick = () => {
+  window.location.href = "https://playcauseway.com/";
+};
+
+const ProjectCardNoVideo = ({ index, name, description, tags, youtubeLink, source_code_link, youtube_source_code_link }) => {
+  return(
+    <div className ="overflow-hidden">
+      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} >
+        <Tilt
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450,
+          }}
+          className='bg-tertiary p-5 rounded-2xl w-full sm:max-w-[360px]'
+        >
+          <div id="youtubeDiv" className='relative w-full h-[230px]'>
+            <img
+              src={causeway}
+              alt='project_image'
+              className='w-full h-full object-contain rounded-2xl'
+            />
+            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+              <div
+                onClick={() => window.open("https://playcauseway.com/", "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={website}
+                  alt='source code'
+                  className='w-4/5 h-4/5 object-contain'
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <ul className="mt-2 list-disc ml-5 space-y-2 text-secondary text-[14px]">
+              {description.map((descript, index ) => (
+                <li
+                  key={`projects-descript-${index}`}
+                >
+                  {descript}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p key={tag.name} className={`text-14px] ${tag.color}`}>
+                {tag.name}
+              </p>
+            ))}
+          </div>
+        </Tilt>
+      </motion.div>
+    </div>
+  )
+}
+
 const Projects = () => {
   return (
     <>
@@ -95,19 +159,31 @@ const Projects = () => {
         >
           These are some of the projects that I've worked on.  
           I've created a variety of projects, ranging from personal 
-          projects to collaborative work both i nand outside of school.
+          projects to collaborative work both in and outside of school.
           Check out a selection of my most notable projects including 
           details on the technologies and specific problems that I've solved. 
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+        {projects.map((project, index) => {
+          if (project.id === 'Causeway')
+          {
+            return (
+              <ProjectCardNoVideo key={`project-${index}`}
+              index={index}
+              {...project}
+              />
+            );
+          }
+        
+        return (
           <ProjectCard key={`project-${index}`}
           index={index}
           {...project}
           />
-        ))}
+        );
+        })}
       </div>
     </>
   )

@@ -17,8 +17,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#01FFFF]'>Jason</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop games utilizing <br className='sm:block hidden' />
-            Unity and C#
+            I develop games as a <br className='sm:block hidden' />
+            <span className='text-[#01FFFF]'>Programmer</span>
           </p>
         </div>
       </div>

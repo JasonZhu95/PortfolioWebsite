@@ -15,6 +15,7 @@ import {
     CSUFLogo,
     FullertonCollegeLogo,
     StaterBrosLogo,
+    kybolt,
   } from "../assets";
   
   export const navLinks = [
@@ -50,11 +51,11 @@ import {
       icon: web,
     },
     {
-      title: "C# Programmer",
+      title: "Unreal Developer",
       icon: mobile,
     },
     {
-      title: "OpenGL Experienced",
+      title: "Computer Science Graduate",
       icon: backend,
     },
   ];
@@ -77,7 +78,7 @@ import {
       icon: unity,
     },
     {
-      name: "Unreal 4",
+      name: "Unreal",
       icon: unreal,
     },
     {
@@ -100,15 +101,28 @@ import {
   
   const experiences = [
     {
-      title: "Manager In Training (Key Carrier)",
-      company_name: "Stater Bros. Grocery Market",
-      icon: StaterBrosLogo,
+      title: "Kybolt Games",
+      company_name: "Gameplay Programmer Intern",
+      icon: kybolt,
       iconBg: "#383E56",
-      date: "July 2016 - July 2019",
+      date: "June 2023 - Present",
       points: [
-        "Delivered an exceptional customer experience and was promoted to a management position in under 4 months.",
-        "Supervised over 30 employees to complete tasks when the store manager was away.",
-        "Directed and coordinated production, pricing, and distribution activities for various departments.",
+        "Deployed action scripting features and balance changes for Causeway, an online MOBA game in alpha.",
+        "Practiced an Agile methodology to prioritize gameplay programming tasks, ensuring efficient task management, improved collaboration, and timely delivery of key features.",
+        "Enhanced modularity and readability by restructuring code organization and dividing character data into seperate components.",
+      ],
+    },
+    {
+      title: "California State University, Fullerton",
+      company_name: "Relevant Coursework",
+      icon: CSUFLogo,
+      iconBg: "#383E56",
+      date: "Sept 2021 - May 2023",
+      points: [
+        "Foundations of Software Engineering",
+        "Data Structures and Algorithms",
+        "Game Design and Production",
+        "Mobile Device Application Programming",
       ],
     },
     {
@@ -125,27 +139,57 @@ import {
       ],
     },
     {
-      title: "California State University, Fullerton",
-      company_name: "Relevant Coursework",
-      icon: CSUFLogo,
+      title: "Stater Bros. Grocery Market",
+      company_name: "Manager In Training (Key Carrier)",
+      icon: StaterBrosLogo,
       iconBg: "#383E56",
-      date: "Sept 2021 - May 2023",
+      date: "July 2016 - July 2019",
       points: [
-        "Foundations of Software Engineering",
-        "Data Structures and Algorithms",
-        "Game Design and Production",
-        "Mobile Device Application Programming",
+        "Delivered an exceptional customer experience and was promoted to a management position in under 4 months.",
+        "Supervised over 30 employees to complete tasks when the store manager was away.",
+        "Directed and coordinated production, pricing, and distribution activities for various departments.",
       ],
     },
   ];
   
   const projects = [
     {
-      name: "Warfront Tactics",
+      id: "Causeway",
+      name: "MOBA Game in Alpha",
       description: [
-        "Employed the observer pattern, event actions, and delegates to engineer a modular turn management system",
-        "Integrated an A* pathfinding algorithm for enemy AI, creating challenging and strategic enemy movements and interactions.",
-        "Crafted a dynamic path visualization system that places arrow sprites based on the hovered player path.",
+        "Deployed action scripting features and balance changes for Causeway, an online MOBA game in alpha.",
+        "Practiced an Agile methodology to prioritize gameplay programming tasks, ensuring efficient task management, improved collaboration, and timely delivery of key features.",
+        "Enhanced modularity and readability by restructuring code organization and dividing character data into seperate components.",
+      ],
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "XML",
+          color: "xml-text-gradient",
+        },
+        {
+          name: "Lua",
+          color: "lua-text-gradient",
+        },
+        {
+          name: "CustomEngine",
+          color: "customengine-text-gradient",
+        },
+      ],
+      youtubeLink: 'hKKeacqhdwM',
+      source_code_link: "https://github.com/JasonZhu95/WarfrontTactics",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=hKKeacqhdwM",
+    },
+    {
+      name: "SubTerra Metroidvania Game",
+      description: [
+        "Coordinated with a team of 5 to optimize workflow utilizing GitHub integration, assuming a leadership role.",
+        "Developed a multi-weapon system which handles sprite animation, sfx, attack data and hitboxes through a custom inspector.",
+        "Implemented a dialogue system with Ink integration that parses text files for determining which character portrait or audio file should be played.",
+        "Generated persitant encrypted player data locally allowing for multiple save and load files.",
       ],
       tags: [
         {
@@ -157,9 +201,9 @@ import {
           color: "purple-text-gradient",
         },
       ],
-      youtubeLink: 'hKKeacqhdwM',
-      source_code_link: "https://github.com/JasonZhu95/WarfrontTactics",
-      youtube_source_code_link: "https://www.youtube.com/watch?v=hKKeacqhdwM",
+      youtubeLink: '8v-usKs7G7k',
+      source_code_link: "https://github.com/JasonZhu95/SubTerra",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=8v-usKs7G7k",
     },
     {
       name: "Maze Tower Defense",
@@ -183,12 +227,11 @@ import {
       youtube_source_code_link: "https://www.youtube.com/watch?v=j75X9MqnLpo",
     },
     {
-      name: "SubTerra Metroidvania Game",
+      name: "Warfront Tactics",
       description: [
-        "Coordinated with a team of 5 to optimize workflow utilizing GitHub integration, assuming a leadership role.",
-        "Developed a multi-weapon system which handles sprite animation, sfx, attack data and hitboxes through a custom inspector.",
-        "Implemented a dialogue system with Ink integration that parses text files for determining which character portrait or audio file should be played.",
-        "Generated persitant encrypted player data locally allowing for multiple save and load files.",
+        "Employed the observer pattern, event actions, and delegates to engineer a modular turn management system.",
+        "Integrated an A* pathfinding algorithm for enemy AI, creating challenging and strategic enemy movements and interactions.",
+        "Crafted a dynamic path visualization system that places arrow sprites based on the hovered player path.",
       ],
       tags: [
         {
@@ -200,9 +243,9 @@ import {
           color: "purple-text-gradient",
         },
       ],
-      youtubeLink: '8v-usKs7G7k',
-      source_code_link: "https://github.com/JasonZhu95/SubTerra",
-      youtube_source_code_link: "https://www.youtube.com/watch?v=8v-usKs7G7k",
+      youtubeLink: 'hKKeacqhdwM',
+      source_code_link: "https://github.com/JasonZhu95/WarfrontTactics",
+      youtube_source_code_link: "https://www.youtube.com/watch?v=hKKeacqhdwM",
     },
     {
       name: "Red Revolver 2D Platformer",

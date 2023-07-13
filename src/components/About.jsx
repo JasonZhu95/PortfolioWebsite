@@ -45,7 +45,7 @@ const About = () => {
       >
         I'm an aspiring game programmer with experience in C# 
         and C++, and expertise in utilizing Unity and some Unreal Engine.  
-        As a soon-to-be college graduate with a bachelor's degree in Computer Science, 
+        As a college graduate with a bachelor's degree in Computer Science, 
         I have gained fundamental understanding of software design techniques and have 
         extended that knowledge into my own projects.  I am 
         passionate about game development and am excited to work with like-minded 
