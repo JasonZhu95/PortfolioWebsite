@@ -43,8 +43,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm an aspiring game programmer with experience in C# 
-        and C++, and expertise in utilizing Unity and some Unreal Engine.  
+        I'm a gameplay programmer with experience in C# 
+        and C++, and expertise in utilizing Unity and Unreal Engine.  
         As a college graduate with a bachelor's degree in Computer Science, 
         I have gained fundamental understanding of software design techniques and have 
         extended that knowledge into my own projects.  I am 
