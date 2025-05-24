@@ -1,53 +1,67 @@
-import logo from "./logo.svg";
+import airship from "./airship.png";
 import backend from "./backend.png";
+import causeway from "./causeway.png";
+import close from "./close.svg";
 import creator from "./creator.png";
+import github from "./github.png";
+import logo from "./logo.svg";
+import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import website from "./website.png"
-import github from "./github.png";
+import website from "./website.png";
 import youtube from "./youtube.png";
-import causeway from "./causeway.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
 
 import cplusplus from "./tech/cplusplus.png";
 import csharp from "./tech/csharp.png";
 import git from "./tech/git.png";
-import jira from "./tech/jira.png";
+import lua from "./tech/lua.png";
+import node from "./tech/node.png";
+import notion from "./tech/notion.png";
 import opengl from "./tech/opengl.png";
-import sdl2 from "./tech/sdl2.png";
-import slack from "./tech/slack.png";
+import react from "./tech/react.png";
+import robloxStudio from "./tech/robloxStudio.png";
+import tailwind from "./tech/tailwind.png";
+import typescript from "./tech/typescript.png";
 import unity from "./tech/unity.png";
 import unreal from "./tech/unreal.png";
+import xml from "./tech/xml.png";
 
 import CSUFLogo from "./company/CSUFLogo.png";
 import FullertonCollegeLogo from "./company/FullertonCollegeLogo.png";
 import StaterBrosLogo from "./company/StaterBrosLogo.png";
+import easy from "./company/easy.png";
 import kybolt from "./company/kybolt.png";
 
 export {
-  logo,
+  airship,
   backend,
-  creator,
-  mobile,
-  web,
-  website,
-  github,
-  youtube,
   causeway,
-  menu,
   close,
   cplusplus,
+  creator,
   csharp,
+  CSUFLogo,
+  easy,
+  FullertonCollegeLogo,
   git,
-  jira,
+  github,
+  kybolt,
+  logo,
+  lua,
+  menu,
+  mobile,
+  node,
+  notion,
   opengl,
-  sdl2,
-  slack,
+  react,
+  robloxStudio,
+  StaterBrosLogo,
+  tailwind,
+  typescript,
   unity,
   unreal,
-  CSUFLogo,
-  FullertonCollegeLogo,
-  StaterBrosLogo,
-  kybolt,
+  web,
+  website,
+  xml,
+  youtube
 };

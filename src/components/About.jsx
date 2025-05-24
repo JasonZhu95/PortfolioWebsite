@@ -1,11 +1,10 @@
-import React from "react";
-import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import Tilt from "react-parallax-tilt";
 
-import { styles } from "../styles";
 import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -16,20 +15,21 @@ const ServiceCard = ({ index, title, icon }) => {
       >
         <div
           options={{
-            max:45,
+            max: 45,
             scale: 1,
-            speed: 450
+            speed: 450,
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-          <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
         </div>
-
       </motion.div>
     </Tilt>
-  )
-}
+  );
+};
 
 const About = () => {
   return (
@@ -41,15 +41,16 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a gameplay programmer with experience in C# 
-        and C++, and expertise in utilizing Unity and Unreal Engine.  
-        As a college graduate with a bachelor's degree in Computer Science, 
-        I have gained fundamental understanding of software design techniques and have 
-        extended that knowledge into my own projects.  I am 
-        passionate about game development and am excited to work with like-minded 
-        individuals to bring their creative visions to life.
+        I'm a gameplay programmer with 2+ years of experience developing
+        multiplayer games. At Easy Games, I've helped build and improve BedWars,
+        one of the top PvP games on Roblox, working on new game modes, core
+        systems, and the upcoming sequel built in Unity. I especially love the
+        aspect of designing meaningful games that bring people together—whether
+        through competition or cooperation. With a background in Computer
+        Science, I'm alwayts looking to grow and t ake on new challenges in game
+        development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -58,7 +59,7 @@ const About = () => {
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(About, "about")
+export default SectionWrapper(About, "about");
