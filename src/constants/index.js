@@ -299,7 +299,7 @@ const projects = [{
     youtube_source_code_link: "https://www.youtube.com/watch?v=j75X9MqnLpo",
   }, {
     name: "Warfront Tactics",
-    description: ["One of my first solo development projects, a turn-based strategy game inspired by my love of tactics games.", "This was one of the first games I \"released\" and went throug the whole game development process using Itch.IO.", ],
+    description: ["One of my first solo development projects, a turn-based strategy game inspired by my love of tactics games.", "This was one of the first games I \"released\" and went through the whole game development process using Itch.IO.", ],
     tags: [{
         name: "Unity",
         color: "green-text-gradient",
