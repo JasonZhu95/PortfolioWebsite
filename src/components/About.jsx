@@ -44,13 +44,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a gameplay programmer with 2+ years of experience developing
-        multiplayer games. At Easy Games, I've helped build and improve BedWars,
-        one of the top PvP games on Roblox, working on new game modes, core
-        systems, and the upcoming sequel built in Unity. I especially love the
-        aspect of designing meaningful games that bring people together—whether
-        through competition or cooperation. With a background in Computer
-        Science, I'm alwayts looking to grow and take on new challenges in game
-        development.
+        multiplayer games. I love the aspect of designing meaningful games that
+        bring people together—whether through competition or cooperation. With a
+        background in Computer Science, I'm alwayts looking to grow and take on
+        new challenges in game development.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
