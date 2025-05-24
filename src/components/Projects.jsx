@@ -16,6 +16,7 @@ const ProjectCard = ({
   source_code_link,
   youtube_source_code_link,
   website_link,
+  startTime = 0,
 }) => {
   return (
     <div className="overflow-hidden">
@@ -83,7 +84,7 @@ const ProjectCard = ({
                 sandbox
                 width="560"
                 height="315"
-                src={`https://www.youtube.com/embed/${youtubeLink}?autoplay=1&controls=0&mute=1&playlist=${youtubeLink}&loop=1`}
+                src={`https://www.youtube.com/embed/${youtubeLink}?autoplay=1&controls=0&mute=1&playlist=${youtubeLink}&loop=1&start=${startTime}`}
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
