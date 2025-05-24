@@ -49,7 +49,7 @@ const About = () => {
         systems, and the upcoming sequel built in Unity. I especially love the
         aspect of designing meaningful games that bring people together—whether
         through competition or cooperation. With a background in Computer
-        Science, I'm alwayts looking to grow and t ake on new challenges in game
+        Science, I'm alwayts looking to grow and take on new challenges in game
         development.
       </motion.p>
 

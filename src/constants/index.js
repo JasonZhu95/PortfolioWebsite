@@ -52,16 +52,16 @@ const services = [{
     icon: creator,
   },
   {
+    title: "Roblox Developer",
+    icon: backend,
+  },
+  {
     title: "Unity Developer",
     icon: web,
   },
   {
     title: "Unreal Developer",
     icon: mobile,
-  },
-  {
-    title: "Computer Science Graduate",
-    icon: backend,
   },
 ];
 
