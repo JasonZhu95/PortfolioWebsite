@@ -223,8 +223,8 @@ const projects = [{
   {
     id: "BedWars",
     name: "BedWars",
-    description: ["One of the top PvP games on Roblox at the studio Easy Games, with over 13+ billion visits!",
-      "Still can't believe I got to work on this game, felt like a dream come true when I got the job offer.  I love this game, the community, and the team.  Extemely grateful for the opportunity to work on such a large scale game.",
+    description: ["One of the top PvP games on Roblox, with millions of monthly active users and billions of visits!",
+      "Getting to work on this game has been surreal. I've come to really love the game, the community, and the amazing team behind it. I'm incredibly grateful for the opportunity to be part of something this big, and I’ve learned more than I could ever sum up here."
     ],
     tags: [{
         name: "TypeScript",

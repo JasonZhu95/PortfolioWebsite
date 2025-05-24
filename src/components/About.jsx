@@ -46,7 +46,7 @@ const About = () => {
         I'm a gameplay programmer with 2+ years of experience developing
         multiplayer games. I love the aspect of designing meaningful games that
         bring people together—whether through competition or cooperation. With a
-        background in Computer Science, I'm alwayts looking to grow and take on
+        background in Computer Science, I'm always looking to grow and take on
         new challenges in game development.
       </motion.p>
 
