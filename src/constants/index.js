@@ -244,7 +244,7 @@ const projects = [{
     id: "Causeway",
     name: "MOBA Game in Alpha",
     description: ["A MOBA game I worked on at Kybolt Games.  I was responsible for implementing action scripting features and balance changes, as well as improving code organization and modularity.",
-      "This was my first real game development job as a gameplay progamming intern!  I learned a lot about working in a team and the game development process.",
+      "This was my first real experience in the game industry as a gameplay programming intern. I gained valuable insight into team collaboration and the overall game development process.",
     ],
     tags: [{
         name: "C++",
@@ -268,7 +268,7 @@ const projects = [{
   }, {
     name: "SubTerra Metroidvania Game",
     description: ["A 2D metroidvania game I created with a team of students at CSUF.  I was the lead programmer and worked on the core systems, including the player controller, enemy AI, and inventory system.",
-      "This project I felt really good about the systems I built and felt I was really coming into my own as a programmer."
+      "I was proud of the systems I built for this project and felt like I was really starting to grow as a programmer."
     ],
     tags: [{
         name: "Unity",
@@ -284,7 +284,10 @@ const projects = [{
     youtube_source_code_link: "https://www.youtube.com/watch?v=8v-usKs7G7k",
   }, {
     name: "Maze Tower Defense",
-    description: ["I always loved Warcraft and Starcraft custom games, especially the tower defense ones.  I took a crack trying to emulate pathfinding and the mazing mechanics in Unity.", "This was one of the first games I made that I felt was actually fun to play and showed it to some friends."],
+    description: [
+      "I always loved Warcraft and Starcraft custom games, especially the tower defense ones. I took a crack trying to emulate pathfinding and mazing mechanics in Unity.",
+      "This was one of my earlier projects where I started getting more comfortable with implementing game logic and systems on my own."
+    ],
     tags: [{
         name: "Unity",
         color: "green-text-gradient",
