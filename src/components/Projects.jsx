@@ -174,8 +174,9 @@ const Projects = () => {
         >
           Here are some of the projects I’ve worked on—ranging from school
           assignments and personal prototypes to professional multiplayer games.
-          Each project reflects a different stage in my growth as a developer,
-          and highlights the tools I’ve used, the challenges I’ve solved.
+          Each project shows a different part of my journey as a developer and
+          gives a glimpse into what I learned or what the experience was like
+          for me.
         </motion.p>
       </div>
 
